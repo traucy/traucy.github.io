@@ -1,0 +1,240 @@
+h5 {
+  max-width: 30em;
+}
+
+.max-text-width {
+  max-width:20em;
+}
+
+.max-body-width {
+  max-width:24em;
+}
+
+.center-margin {
+  /* padding: 0em 1.5em 0em 1.5em; */
+  padding: 0em 1em 0em 1em;
+}
+
+.bg-color {
+  background-color: #1A1A1A !important;
+}
+
+.content-container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px dashed blue; */
+}
+
+.col-1of2 {
+  flex: 1 1 34em;
+}
+
+.col-2of2 {
+  flex: 1 1 34em;
+}
+
+.image-box {
+	width: 100%;
+  height: inherit;
+
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 70em) {
+
+  .side-margin {
+    padding: 0em 1.5em 0em 1.5em;
+  }
+
+  .play-margin {
+    padding: 0;
+  }
+
+  .play-margin-right {
+    padding-right: 1.5em;
+  }
+
+  .about-margin {
+    padding: 0em;
+  }
+
+
+  .max-body-width {
+    max-width:40em;
+  }
+
+  .shrinking-spacer{
+    padding-bottom:1em;
+  }
+
+  /* DETAILS */
+  .overview-container {
+    flex: 1 1 10em;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 3px dashed green; */
+  }
+
+  .title-block {
+    flex: 1 1 10em;
+    padding-left: 1.5em;
+    padding-bottom: 4em;
+  }
+
+
+  .details-container {
+    flex: 1 1 35em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 1.5em 0em 1.5em;
+  }
+
+  .contribution-block {
+    flex: 1 1 15em;
+    margin-right: 0em;
+    padding-bottom: 1.5em;
+  }
+
+  .tools-block {
+    flex: 1 1 15em;
+    margin-right: 0em;
+    padding-bottom: 1.5em;
+  }
+
+  .team-block {
+    flex: 1 1 15em;
+    margin-right: 0em;
+    padding-bottom: 1.5em;
+  }
+
+  .date-block {
+    flex: 1 1 15em;
+    margin-right: 0em;
+    padding-bottom: 1.5em;
+  }
+
+  .col-image-block {
+    flex: 1 1 40em;
+    padding-top: 3em;
+    height: 80vw;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .col-play-block {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+}
+
+
+@media (min-width: 70em) {
+
+  .side-margin {
+    padding: 0em 2em 0em 2em;
+  }
+
+  .play-margin {
+    padding: 0em 2em 0em 0em;
+  }
+
+  .play-margin-right {
+    padding-right: 0;
+  }
+
+  .about-margin {
+    padding: 0em 2em 0em 2em;
+  }
+
+  .col-1of2 {
+    padding-right:2.5em;
+  }
+
+  .shrinking-spacer{
+    padding-bottom:2em;
+  }
+
+  /* DETAILS */
+  .overview-container {
+    flex: 1 1 10em;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 3px dashed green; */
+  }
+
+  .title-block {
+    flex: 1 1 10em;
+    padding-left: 2em;
+  }
+
+
+  .details-container {
+    flex: 1 1 30em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contribution-block {
+    flex: 1 1 10em;
+    margin-right: 2em;
+  }
+
+  .tools-block {
+    flex: 1 1 10em;
+    margin-right: 2em;
+  }
+
+  .team-block {
+    flex: 1 1 10em;
+    margin-right: 2em;
+  }
+
+  .date-block {
+    flex: 1 1 10em;
+    margin-right: 2em;
+  }
+
+  .col-image-block {
+    flex: 1 1 40em;
+    height: 40vw;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* spacer */
