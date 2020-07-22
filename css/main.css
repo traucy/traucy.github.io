@@ -223,7 +223,9 @@ p {
     height: 1em;
   }
 
-
+  .vertical-line {
+    border-left: none;
+  }
 
 }
 
@@ -236,6 +238,10 @@ p {
 
   .smallspacer {
     height: 3em;
+  }
+
+  .vertical-line {
+    border-left: 1px solid var(--darkgrey);
   }
 
 }
@@ -419,9 +425,7 @@ button:focus {
   border-top: 1px solid var(--grey);
 }
 
-.vertical-line {
-  border-left: 1px solid var(--darkgrey);
-}
+
 
 .underline {
   text-decoration: underline;
