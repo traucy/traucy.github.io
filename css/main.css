@@ -255,6 +255,9 @@ color: var(--grey);
   color: var(--white);
 }
 
+.max-intro-width {
+  max-width:24em;
+}
 
 .max-text-width {
   max-width:23em;
