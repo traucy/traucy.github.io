@@ -10,14 +10,6 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-//blurry header
-var pageContent = document.getElementById("content"),
-	pagecopy = pageContent.cloneNode(true),
-	blurryContent = document.getElementById("blurryscroll");
-	blurryContent.appendChild(pagecopy);
-	window.onscroll = function() { blurryContent.scrollTop = window.pageYOffset; }
-
-
 // https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test
 //copy to clipboard
 function myFunction() {

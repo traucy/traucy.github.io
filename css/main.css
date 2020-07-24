@@ -252,13 +252,14 @@ p {
 
 .text-hover {
 display:inline-block;
-/* color: var(--grey); */
 color: var(--grey);
+transition: 0.6s;
 }
 
 .text-hover:hover {
   display:inline-block;
   color: var(--white);
+  transition: 0.3s;
 }
 
 .max-intro-width {
